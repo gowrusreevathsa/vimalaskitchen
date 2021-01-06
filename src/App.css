@@ -8,7 +8,8 @@
 .home,
 .services,
 .products,
-.sign-up {
+.sign-up,
+.recipes {
   display: flex;
   height: 90vh;
   align-items: center;
@@ -45,4 +46,14 @@
 
 .left-padding-5 {
   padding-left: 5px;
+}
+
+/* CUSTOM */
+.recipes {
+  background-image: url("./images/img-2.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: #fff;
+  font-size: 100px;
 }
